@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(59, 72, 146);
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.dev{
+    opacity: 0.5;
+}
+.mail{
+    padding: 8px;
+}
+
+.contact{
+     color: red;
+}
