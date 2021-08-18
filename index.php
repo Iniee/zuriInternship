@@ -7,7 +7,7 @@
    <!--- Basic Page Needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>Ceevee - Free Responsive HTML5/CSS3 Template</title>
+	<title>Ini Resume</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
 
@@ -99,6 +99,15 @@
 
          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <?php
+            for($j=0; $j<count($regSuccess); $j++){
+         echo $regSuccess[$j];
+         }
+       for($i=0; $i<count($regError); $i++){
+         echo $regError[$i];
+           }
+            ?>
 
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
@@ -302,14 +311,7 @@
          <div class="row">
 
             <div class="eight columns">
-    <?php
-            for($j=0; $j<count($regSuccess); $j++){
-         echo $regSuccess[$j];
-       }
-     for($i=0; $i<count($regError); $i++){
-         echo $regError[$i];
-     }
-?>
+    
                <!-- form -->
                <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post" id="contactForm" name="contactForm">
 					<fieldset>
