@@ -735,12 +735,6 @@
 					</fieldset>
 				   </form> <!-- Form End -->
 
-               <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
-               <!-- contact-success -->
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div>
 
             </div>
 
