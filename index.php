@@ -36,7 +36,7 @@
                 $regError[] = "Please Enter your Question in the Contact Section".'<br>';
               }
               if(empty($regError)){
-                $query = "INSERT INTO resume(firstname, lastname, question) VALUES('$firstname', '$lastname', 
+                $query = "INSERT INTO resume1(firstname, lastname, question) VALUES('$firstname', '$lastname', 
                 '$question')"; 
 
               $result = mysqli_query($connect,$query)
