@@ -681,7 +681,7 @@
                   </div>
 
                   <div>
-                     <button class="submit">Submit</button>
+                     <input type="submit" value="Submit" name="submit">
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif">
                      </span>
