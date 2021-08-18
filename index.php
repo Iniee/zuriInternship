@@ -104,9 +104,6 @@
             for($j=0; $j<count($regSuccess); $j++){
          echo $regSuccess[$j];
          }
-       for($i=0; $i<count($regError); $i++){
-         echo $regError[$i];
-           }
             ?>
 
          <ul id="nav" class="nav">
@@ -315,7 +312,11 @@
                <!-- form -->
                <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post" id="contactForm" name="contactForm">
 					<fieldset>
-
+                  <?php
+               for($i=0; $i<count($regError); $i++){
+         echo $regError[$i];
+           }
+           ?>
                   <div>
 						   <label for="firstName">Firstname <span class="required">*</span></label>
 						   <input type="text" value="" size="35" id="contactName" name="firstname">
